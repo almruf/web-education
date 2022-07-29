@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>web-education</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
+    <script src="https://kit.fontawesome.com/7bf3ae1cbe.js" crossorigin="anonymous"></script>
 </head>
 <body class="">
     <!-- start header section -->
@@ -16,13 +17,13 @@
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
-              <div class="collapse navbar-collapse px-5" id="navbarNav">
+              <div class="collapse navbar-collapse mx-5" id="navbarNav">
                 <ul class="navbar-nav">
                   <li class="nav-item">
                     <a class="nav-link active" aria-current="page" href="#">Home</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Courses</a>
+                    <a class="nav-link" href="#course">Courses</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="#">Success</a>
@@ -31,12 +32,18 @@
                     <a class="nav-link" href="">About</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="">Contuct</a>
+                    <a class="nav-link" href="#qus">questian</a>
                   </li>
-                  <button type="button" class=" btn btn-outline-secondary ">Secondary</button>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#footer">Contuct</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="btn btn-secondary" href="#register" role="button">resiter</a>
+                  </li>
                 </ul>
               </div>
             </div>
+            
           </nav>
 <main class="">
         <!-- slider start -->
@@ -86,15 +93,13 @@
               </div>
             </section>
       </header>
-   
-           <!-- slider end -->
            <!-- corses section start -->
       <section>
-      <div class="w-100 h-50 text-center my-5">
+      <div class="w-100 h-50 text-center my-5" id="course">
         <h2 class="font">find your favorit <br> course</h2>
         <p>Each aspect of creating websites and applications entails a unique set of skills.</p>
       </div>
-                       <!-- course-1 -->
+       <!-- course-1 -->
       <div class=" container">
         <div class="row text-center ">
           <div class="col-lg-6 col-md-12 col-sm-12 mb-3 ">
@@ -102,7 +107,7 @@
               <div class="card ">
               <div class="row g-0 ">
                 <div class="col-md-4">
-                  <img src="images/course/course-1.png" class="img-fluid" alt="...">
+                  <img src="images/course/course-1.png" class="img-fluid w-100" alt="...">
                 </div>
                 <div class="col-md-8">
                   <div class="card-body">
@@ -121,7 +126,7 @@
               <div class="card">
                 <div class="row g-0">
                   <div class="col-md-4">
-                    <img src="images/course/course-2.png" class="img-fluid rounded" alt="...">
+                    <img src="images/course/course-2.png" class="img-fluid  w-100" alt="...">
                   </div>
                   <div class="col-md-8">
                     <div class="card-body">
@@ -140,7 +145,7 @@
               <div class="card">
                 <div class="row g-0">
                   <div class="col-md-4">
-                    <img src="images/course/course-3.png" class="img-fluid rounded" alt="...">
+                    <img src="images/course/course-3.png" class="img-fluid  w-100 rounded" alt="...">
                   </div>
                   <div class="col-md-8">
                     <div class="card-body">
@@ -159,7 +164,7 @@
               <div class="card">
                 <div class="row g-0">
                   <div class="col-md-4">
-                    <img src="images/course/course-4.png" class="img-fluid rounded" alt="...">
+                    <img src="images/course/course-4.png" class="img-fluid  w-100 rounded" alt="...">
                   </div>
                   <div class="col-md-8">
                     <div class="card-body">
@@ -178,7 +183,7 @@
               <div class="card">
                 <div class="row g-0">
                   <div class="col-md-4">
-                    <img src="images/course/course-5.png" class="img-fluid rounded" alt="...">
+                    <img src="images/course/course-5.png" class="img-fluid  w-100 rounded" alt="...">
                   </div>
                   <div class="col-md-8">
                     <div class="card-body">
@@ -197,7 +202,7 @@
               <div class="card">
                 <div class="row g-0">
                   <div class="col-md-4">
-                    <img src="images/course/course-6.png" class="img-fluid rounded" alt="...">
+                    <img src="images/course/course-6.png" class="img-fluid  w-100 rounded" alt="...">
                   </div>
                   <div class="col-md-8">
                     <div class="card-body">
@@ -218,10 +223,104 @@
           <a href="#" class=" btn btn-primary   px-4 py-2" tabindex="-1" role="button" aria-disabled="true">view all</a>
         </div>
       </div>
-    
-      <!-- end courses section -->
+       <!-- rady to join -->
+       <section id="register">
+        <div class="card border m-auto p-5 mt-5 bg-info text-center" style="max-width:98%;">
+          <div class="row g-0">
+            <div class="col-md-8">
+              <div class="card-body ">
+                <h3 class="card-title ">are you rady to join?</h3>
+                <p class="card-text px-3"> Welcome to web-education. This course aims to improve your development skills <br>by developing your use of programming language.</p>
+                
+              </div>
+            </div>
+            <div class="col-md-4">
+              <button type="button" class=" btn btn-outline-dark bg-light m-5 px-5 text-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">register</button>
+            </div>
+
+<!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">web-education</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <form>
+                      <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                      </div>
+                      <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label">Password</label>
+                        <input type="password" class="form-control" id="exampleInputPassword1">
+                      </div>
+                      <div class="mb-3 form-check">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                      </div>
+                      <button type="submit" class="btn btn-primary">Submit</button>
+                    </form> 
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+       </section>
+       <!-- start faq questian -->
+       <section class="" id="qus">
+        <div class="text-center m-auto my-5 w-75 border">
+          <h2 >you have any questian</h2>
+          <p>If you have any questions you can ask us. Below are some questions.</p>
+          <div class="accordion accordion-flush" id="accordionFlushExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingOne">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                 Q:1 difference flex box vs grid?
+                </button>
+              </h2>
+              <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Grid and flexbox. The basic difference between CSS Grid Layout and CSS Flexbox Layout is that flexbox was designed for layout in one dimension - either a row or a column. Grid was designed for two-dimensional layout - rows, and columns at the same time.</div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                  Q:2 benifts bootstrap vs tailwind?
+                </button>
+              </h2>
+              <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Bootstrap comes with a set of pre-styled responsive, mobile-first components that possess a definite UI kit. Tailwind CSS uses a set of utility classes to create a neat UI with more flexibility and uniqueness. Sites created using Bootstrap follow the generic pattern that makes them look identical</div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                 Q:3 what is css box model?
+                </button>
+              </h2>
+              <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">In CSS, the term "box model" is used when talking about design and layout. The CSS box model is essentially a box that wraps around every HTML element.</div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                 Q:4 what is symantic tag? 
+                </button>
+              </h2>
+              <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">The HTML semantics refers to the tags that provide meaning to an HTML page rather than just presentation. It makes HTML more comprehensible by better defining the different sections and layout of web pages.</div>
+              </div>
+            </div>
+          </div>
+        </div>
+       </section>
       <!-- start trusted company section    -->
-        <div class="d-flex justify-content-between p-5 d-lg-block d-none">
+        <div class="d-flex justify-content-between mb-5 p-5 d-lg-block d-none">
           <h2 class="text-center pb-4" >our trusted company</h2>
           <img class="px-4" src="images/company/company-1.png" alt="">
           <img class="px-4" src="images/company/company-2.png" alt="">
@@ -232,15 +331,18 @@
         </div>
        
         <!-- start footer section -->
-        <footer class="pt-4 ">
-          <div class="card text-center bg-black ">
+        <footer class="row pt-4 m-1" id="footer">
+          <div class="col-lg-12 col-md-12 col-sm-12 card text-center bg-black ">
             <div class="card-body">
               <h2 class="card-title text-light">web-education</h2>
-              <p class="card-text text-light">Office-22,Word-66, , Dhaka south city corporation.</p>
+              <p class="card-text text-light">Office-2/19/1, Word-66, Dhaka south city corporation. <br> aalmaruf82@gmail.com</p>
               <a href="#" class="btn text-light">praivacy | terms of use </a>
             </div>
-            <div class="card-footer text-white">
-              2 days ago
+            <div class="card-footer text-white mb-4">
+              <a href="https://www.facebook.com/abdullah.almaruf.92775/" target="_blank"><i class="fa-brands fa-square-facebook data-bs-target-block pe-2"></i></a>
+              <a href="https://twitter.com/?lang=en"target="_blank" ><i class="fa-brands fa-twitter pe-2"></i></a>
+              <a href="https://www.instagram.com/?hl=en" target="_blank"><i class="fa-brands fa-instagram pe-2"></i></a>
+              <a href="https://accounts.google.com/signin/v2/identifier?continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&service=mail&sacu=1&rip=1&flowName=GlifWebSignIn&flowEntry=ServiceLogin"><i class="fa-regular fa-envelope pe-2"></i></a>
             </div>
           </div>
         </footer>
